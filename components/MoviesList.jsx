@@ -53,7 +53,7 @@ const MoviesList = () => {
 						</div>
 						<Link
 							className="bg-primary rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm"
-							href="./modal.html"
+							href="/movie"
 						>
 							<Image
 								src="/tag.svg"

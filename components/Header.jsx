@@ -5,7 +5,7 @@ const Header = () => {
 	return (
 		<header>
 			<nav className="container flex items-center justify-between space-x-10 py-6">
-				<Link href="index.html">
+				<Link href="/">
 					<Image src="/logo.svg" width={139} height={26} alt="" />
 				</Link>
 
