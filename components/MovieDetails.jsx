@@ -16,6 +16,7 @@ const MovieDetails = async ({ id, lang }) => {
 		vote_count,
 		popularity,
 	} = movieDetails;
+	const dict = await getDictionary(lang);
 	return (
 		<section>
 			<div>
@@ -45,10 +46,10 @@ const MovieDetails = async ({ id, lang }) => {
 				</div>
 				<div className="col-span-2 space-y-4">
 					<button className="py-2 w-full bg-primary font-medium text-slate-800 rounded-md">
-						Stream In HD
+						{dict.stream}
 					</button>
 					<button className="py-2 w-full bg-primary font-medium text-slate-800 rounded-md">
-						Download In HD
+						{dict.download}
 					</button>
 				</div>
 			</div>
